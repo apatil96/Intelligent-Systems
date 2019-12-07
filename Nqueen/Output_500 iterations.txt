@@ -1,0 +1,690 @@
+Microsoft Windows [Version 10.0.17134.648]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\amitp>C:\python37\python.exe C:\code.py
+Select the algorithm that you want to execute :
+ 1. Steepest Ascent(without sidemoves)
+ 2. Hill Climbing with Sideway Moves
+ 3. Random Restart
+1
+Enter the number of queens
+8
+Enter the number of interations
+500
+**********************Steepest ascent hill climb(without sidemoves)********************:
+
+Search Sequence : 1
+ 0 0 0 Q 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 0 0 0 0 0 0
+0 0 Q 0 0 0 0 0
+Q 0 0 0 0 0 0 0
+0 0 0 0 Q 0 Q 0
+0 0 0 0 0 0 0 0
+0 Q 0 0 0 0 0 Q
+
+Search Sequence : 1
+ 0 0 0 Q 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 0 0 0 0 0 0
+0 0 Q 0 0 0 0 0
+Q 0 0 0 0 0 0 0
+0 0 0 0 0 0 Q 0
+0 0 0 0 Q 0 0 0
+0 Q 0 0 0 0 0 Q
+
+Search Sequence : 1
+ 0 0 0 Q 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 0 0 0 0 0 Q
+0 0 Q 0 0 0 0 0
+Q 0 0 0 0 0 0 0
+0 0 0 0 0 0 Q 0
+0 0 0 0 Q 0 0 0
+0 Q 0 0 0 0 0 0
+
+Search Sequence : 2
+ Q 0 0 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 Q 0 0 0 0 Q
+0 0 0 0 0 0 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 Q 0 0 Q 0
+
+Search Sequence : 2
+ Q 0 0 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+0 0 0 0 0 0 0 Q
+0 0 0 0 0 Q 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 Q 0 0 Q 0
+
+Search Sequence : 2
+ Q 0 0 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+0 0 0 0 0 0 0 Q
+0 0 0 0 0 Q 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 0 0 Q 0
+0 Q 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+
+Search Sequence : 3
+ 0 0 0 0 Q 0 0 0
+0 0 Q 0 0 0 0 Q
+Q 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 Q 0
+0 Q 0 Q 0 Q 0 0
+
+Search Sequence : 3
+ 0 0 0 0 Q 0 0 0
+0 0 Q 0 0 0 0 Q
+Q 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 Q 0
+0 Q 0 Q 0 0 0 0
+
+Search Sequence : 3
+ 0 0 0 0 Q 0 0 0
+0 0 0 0 0 0 0 Q
+Q 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 0 0 Q 0
+0 Q 0 Q 0 0 0 0
+
+Search Sequence : 3
+ 0 0 0 0 Q 0 0 0
+0 0 0 0 0 0 0 Q
+Q Q 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 0 0 Q 0
+0 0 0 Q 0 0 0 0
+
+Average steps when success:  4
+Average steps when failure:  3
+                                All Problems   Successes      Failures
+          Number of Problems:   500 (100.0%)   64 (12.8%)     436 (87.2%)
+
+____________________________________________________________________________________________________
+
+
+Select the algorithm that you want to execute :
+ 1. Steepest Ascent(without sidemoves)
+ 2. Hill Climbing with Sideway Moves
+ 3. Random Restart
+2
+Enter the number of queens
+8
+Enter the number of interations
+500
+*********************Hill Climbing with Sidemoves*********************:
+
+Search Sequence : 1
+ 0 0 Q 0 0 0 0 0
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 Q
+0 0 0 0 Q 0 Q 0
+0 0 0 0 0 0 0 0
+0 Q 0 0 0 Q 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+
+Search Sequence : 1
+ 0 0 Q 0 0 0 0 0
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 Q
+0 0 0 0 0 0 Q 0
+0 0 0 0 0 0 0 0
+0 Q 0 0 0 Q 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 Q 0 0 0 0 Q
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 0 0 0 0 0 Q 0
+0 0 0 0 0 0 0 0
+0 Q 0 0 0 Q 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 Q 0 0 0 0 Q
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 Q 0 0 0 0 Q 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 0 0 0 0 Q
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 Q 0 0 0 0 Q 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 0 0 0 0 Q
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 Q 0
+0 0 0 0 0 Q 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 0 0 0 0 Q
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 Q 0 0 0 0 Q 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 0 0 0 Q Q
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 0 0 0 Q 0
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 0 Q
+0 0 0 0 0 Q 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 0 0 0 Q Q
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 0 0 0 0 Q
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 Q 0
+0 0 0 0 0 Q 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 0 0 0 Q Q
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 0 0 0 0 Q
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 Q 0 0 0 0 Q 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 0 0 0 0 Q
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 Q 0
+0 0 0 0 0 Q 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 0 0 0 Q Q
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 0 0 0 Q 0
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 Q 0 Q
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 0 0 0 Q 0
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 0 0 0 0 0 Q
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 0 0 0 Q 0
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 Q 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 Q
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 0 0 0 Q 0
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 Q 0 Q
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 0 0 0 Q Q
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 0 0 0 0 Q
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 Q 0 0 0 0 Q 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 0 0 0 Q Q
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 0 0 0 Q 0
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 0 Q
+0 0 0 0 0 Q 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 0 0 0 Q 0
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 Q 0 Q
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 0 0 0 Q Q
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 0 0 0 Q 0
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 Q
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 0 0 0 Q 0
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 Q 0 Q
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 0 0 0 Q Q
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 0 0 0 Q 0
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 0 Q
+0 0 0 0 0 Q 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 0 0 0 Q 0
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 Q 0 Q
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 0 0 0 Q 0
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 Q 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 Q
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 0 0 0 Q 0
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 0 0 0 0 0 Q
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 0 0 0 Q 0
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 Q 0 Q
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 0 0 0 Q 0
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 0 0 0 0 0 Q
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 0 0 0 Q 0
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 Q 0 Q
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 0 0 0 Q 0
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 Q
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 Q 0 0 Q 0
+Q 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 Q
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 Q 0 0 0 0
+Q 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 Q
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 Q 0
+0 0 0 0 0 Q 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 Q 0 0 0 0
+Q 0 0 0 0 Q 0 0
+0 0 0 0 0 0 0 Q
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 Q 0
+0 0 0 0 0 0 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 Q 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 0 0 0 0 0 Q
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 Q 0
+Q 0 0 0 0 0 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 2
+ 0 0 Q 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 0 Q 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+Q 0 0 0 0 0 Q 0
+0 Q 0 0 Q 0 0 0
+0 0 0 0 0 0 0 Q
+
+Search Sequence : 2
+ 0 0 Q 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 0 Q 0 0 0 0
+Q 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 Q 0
+0 Q 0 0 Q 0 0 0
+0 0 0 0 0 0 0 Q
+
+Search Sequence : 2
+ 0 0 Q 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 0 Q 0 0 0 0
+Q 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 Q 0 0 Q 0 0 0
+0 0 0 0 0 0 Q Q
+
+Search Sequence : 2
+ 0 0 Q 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 0 Q 0 0 0 0
+Q 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 Q
+0 0 0 0 0 0 0 0
+0 Q 0 0 Q 0 0 0
+0 0 0 0 0 0 Q 0
+
+Search Sequence : 2
+ 0 0 Q 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 0 Q 0 0 0 0
+Q 0 0 0 0 0 0 0
+0 0 0 0 Q 0 0 Q
+0 0 0 0 0 0 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 Q 0
+
+Search Sequence : 2
+ 0 0 Q 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 0 Q 0 0 0 0
+Q 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 Q
+0 0 0 0 Q 0 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 Q 0
+
+Search Sequence : 2
+ 0 0 Q 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 0 Q 0 0 0 0
+Q 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 Q
+0 0 0 0 Q 0 0 0
+0 Q 0 0 0 0 Q 0
+0 0 0 0 0 0 0 0
+
+Search Sequence : 2
+ 0 0 Q 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 0 Q 0 0 0 0
+Q 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 Q
+0 0 0 0 Q 0 0 0
+0 0 0 0 0 0 Q 0
+0 Q 0 0 0 0 0 0
+
+Search Sequence : 3
+ 0 0 0 0 0 0 0 0
+Q 0 Q 0 0 Q 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 Q
+0 0 0 0 Q 0 0 0
+0 Q 0 0 0 0 Q 0
+0 0 0 Q 0 0 0 0
+
+Search Sequence : 3
+ 0 0 0 0 0 0 0 0
+0 0 Q 0 0 Q 0 0
+Q 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 Q
+0 0 0 0 Q 0 0 0
+0 Q 0 0 0 0 Q 0
+0 0 0 Q 0 0 0 0
+
+Search Sequence : 3
+ 0 0 0 0 0 0 0 0
+0 0 Q 0 0 0 0 0
+Q 0 0 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 0 0 0 0 0 Q
+0 0 0 0 Q 0 0 0
+0 Q 0 0 0 0 Q 0
+0 0 0 Q 0 0 0 0
+
+Search Sequence : 3
+ 0 0 0 0 0 0 Q 0
+0 0 Q 0 0 0 0 0
+Q 0 0 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 0 0 0 0 0 Q
+0 0 0 0 Q 0 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+
+Average steps when success:  20
+Average steps when failure:  52
+                                All Problems   Successes      Failures
+          Number of Problems:   500 (100.0%)   477 (95.4%)    23 (4.6%)
+
+____________________________________________________________________________________________________
+
+
+Select the algorithm that you want to execute :
+ 1. Steepest Ascent(without sidemoves)
+ 2. Hill Climbing with Sideway Moves
+ 3. Random Restart
+3
+Enter the number of queens
+8
+Enter the number of interations
+500
+******************* Random Restart without Sidemoves ******************
+random_restart:
+
+Average steps when success:  30
+Avg Restarts Required:  7
+                                All Problems   Successes      Failures
+          Number of Problems:   500 (100.0%)   500 (100.0%)   0 (0.0%)
+
+____________________________________________________________________________________________________
+
+******************* Random Restart with Sidemoves ******************
+random_restart:
+
+Average steps when success:  22
+Avg Restarts Required:  1
+                                All Problems   Successes      Failures
+          Number of Problems:   500 (100.0%)   500 (100.0%)   0 (0.0%)
+
+____________________________________________________________________________________________________

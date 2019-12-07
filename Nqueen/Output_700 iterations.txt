@@ -1,0 +1,361 @@
+Microsoft Windows [Version 10.0.17134.648]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\amitp>C:\python37\python.exe C:\code.py
+Select the algorithm that you want to execute :
+ 1. Steepest Ascent(without sidemoves)
+ 2. Hill Climbing with Sideway Moves
+ 3. Random Restart
+1
+Enter the number of queens
+8
+Enter the number of interations
+700
+**********************Steepest ascent hill climb(without sidemoves)********************:
+
+Search Sequence : 1
+ 0 0 Q 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 Q 0
+0 0 0 0 0 Q 0 0
+Q 0 0 Q 0 0 0 Q
+0 0 0 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 Q 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 Q 0
+0 0 0 0 0 0 0 0
+Q 0 0 Q 0 0 0 Q
+0 0 0 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 Q 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 Q 0
+0 0 0 0 0 0 0 0
+Q 0 0 Q 0 0 0 0
+0 0 0 0 0 0 0 Q
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 Q 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 Q 0
+Q 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 0 0 0 0 0 0 Q
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 2
+ 0 0 Q 0 Q 0 0 0
+0 0 0 0 0 0 0 Q
+0 Q 0 0 0 Q 0 0
+Q 0 0 0 0 0 0 0
+0 0 0 0 0 0 Q 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+
+Search Sequence : 2
+ 0 0 Q 0 Q 0 0 0
+0 0 0 0 0 0 0 Q
+0 Q 0 0 0 Q 0 0
+Q 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 Q 0
+0 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+
+Search Sequence : 2
+ 0 0 0 0 Q 0 0 0
+0 0 0 0 0 0 0 Q
+0 Q 0 0 0 Q 0 0
+Q 0 0 0 0 0 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 0 0 Q 0
+0 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+
+Search Sequence : 2
+ 0 0 0 0 Q 0 0 0
+0 Q 0 0 0 0 0 Q
+0 0 0 0 0 Q 0 0
+Q 0 0 0 0 0 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 0 0 Q 0
+0 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+
+Search Sequence : 3
+ Q 0 0 0 0 0 0 0
+0 0 0 0 0 0 Q Q
+0 0 0 0 0 0 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+0 0 0 0 0 Q 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+
+Search Sequence : 3
+ Q 0 0 0 0 0 0 0
+0 0 0 0 0 0 Q Q
+0 0 0 0 Q 0 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+
+Search Sequence : 3
+ Q 0 0 0 0 0 0 0
+0 0 0 0 0 0 Q Q
+0 0 0 0 Q 0 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 0 0 0 0 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+
+Search Sequence : 3
+ Q 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 Q
+0 0 0 0 Q 0 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 0 0 0 0 Q 0
+0 Q 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+
+Average steps when success:  4
+Average steps when failure:  3
+                                All Problems   Successes      Failures
+          Number of Problems:   700 (100.0%)   92 (13.1%)     608 (86.9%)
+
+____________________________________________________________________________________________________
+
+
+Select the algorithm that you want to execute :
+ 1. Steepest Ascent(without sidemoves)
+ 2. Hill Climbing with Sideway Moves
+ 3. Random Restart
+2
+Enter the number of queens
+8
+Enter the number of interations
+700
+*********************Hill Climbing with Sidemoves*********************:
+
+Search Sequence : 1
+ 0 0 0 Q 0 0 Q 0
+0 Q 0 0 0 0 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 0 0 0 0 0 0
+Q 0 0 0 Q 0 0 0
+0 0 0 0 0 0 0 Q
+0 0 0 0 0 0 0 0
+
+Search Sequence : 1
+ 0 0 0 Q 0 0 Q 0
+0 Q 0 0 0 0 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 0 0 0 0 0 0
+Q 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 Q
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 1
+ 0 0 0 0 0 0 Q 0
+0 Q 0 0 0 0 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 0 Q 0 0 0 0
+Q 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 Q
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 2
+ Q 0 0 0 0 0 Q 0
+0 0 0 0 Q 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 0 Q 0 0 0 0 Q
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+
+Search Sequence : 2
+ Q 0 0 0 0 0 Q 0
+0 0 Q 0 Q 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 0 0 0 0 0 0 Q
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+
+Search Sequence : 2
+ Q 0 0 0 0 0 Q 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 0 0 0 0 0 0 Q
+0 Q 0 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 2
+ Q 0 0 0 0 0 Q 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 0 0 0 0 0 0 Q
+0 0 0 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 2
+ Q 0 0 0 0 Q Q 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 0 0 0 0 0 0 Q
+0 0 0 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 2
+ Q 0 0 0 0 Q 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 0 0 Q 0
+0 Q 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 0 0 0 0 0 0 Q
+0 0 0 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 2
+ 0 0 0 0 0 Q 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 0 0 Q 0
+0 Q 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+0 0 0 0 0 0 0 Q
+Q 0 0 0 0 0 0 0
+0 0 0 0 Q 0 0 0
+
+Search Sequence : 3
+ 0 0 0 0 Q 0 0 0
+0 0 0 0 0 0 0 0
+Q 0 0 0 0 0 0 Q
+0 0 0 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 Q 0 0 0 Q 0
+0 Q 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+
+Search Sequence : 3
+ 0 0 0 0 Q 0 0 0
+0 0 0 0 0 0 0 0
+Q 0 0 0 0 0 0 Q
+0 0 Q 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 0 0 0 0 Q 0
+0 Q 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+
+Search Sequence : 3
+ 0 0 0 0 Q 0 0 0
+0 0 0 0 0 0 0 Q
+Q 0 0 0 0 0 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 0 0 0 0 Q 0
+0 Q 0 0 0 0 0 0
+0 0 0 Q 0 0 0 0
+
+Search Sequence : 3
+ 0 0 0 0 Q 0 0 0
+0 0 0 0 0 0 0 Q
+Q 0 0 0 0 0 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 0 0 0 0 0 0 0
+0 Q 0 0 0 0 Q 0
+0 0 0 Q 0 0 0 0
+
+Search Sequence : 3
+ 0 0 0 0 Q 0 0 0
+0 0 0 0 0 0 0 Q
+Q 0 0 0 0 0 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 Q 0
+0 0 0 Q 0 0 0 0
+
+Search Sequence : 3
+ 0 0 0 Q Q 0 0 0
+0 0 0 0 0 0 0 Q
+Q 0 0 0 0 0 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 Q 0
+0 0 0 0 0 0 0 0
+
+Search Sequence : 3
+ 0 0 0 Q 0 0 0 0
+0 0 0 0 0 0 0 Q
+Q 0 0 0 0 0 0 0
+0 0 Q 0 0 0 0 0
+0 0 0 0 0 Q 0 0
+0 Q 0 0 0 0 0 0
+0 0 0 0 0 0 Q 0
+0 0 0 0 Q 0 0 0
+
+Average steps when success:  19
+Average steps when failure:  66
+                                All Problems   Successes      Failures
+          Number of Problems:   700 (100.0%)   667 (95.3%)    33 (4.7%)
+
+____________________________________________________________________________________________________
+
+
+C:\Users\amitp>C:\python37\python.exe C:\aa.py
+Select the algorithm that you want to execute :
+ 1. Steepest Ascent(without sidemoves)
+ 2. Hill Climbing with Sideway Moves
+ 3. Random Restart
+3
+Enter the number of queens
+8
+Enter the number of interations
+700
+******************* Random Restart without Sidemoves ******************
+random_restart:
+
+Average steps when success:  31
+Avg Restarts Required:  7
+                                All Problems   Successes      Failures
+          Number of Problems:   700 (100.0%)   700 (100.0%)   0 (0.0%)
+
+____________________________________________________________________________________________________
+
+******************* Random Restart with Sidemoves ******************
+random_restart:
+
+Average steps when success:  23
+Avg Restarts Required:  1
+                                All Problems   Successes      Failures
+          Number of Problems:   700 (100.0%)   700 (100.0%)   0 (0.0%)
+
+____________________________________________________________________________________________________
